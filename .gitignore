@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+*.venv
+
+# Python Bytecode & Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Model Binary Downloads
+models/*.onnx
+
+# User Face Dataset & Trained Model Weights (Keep empty directories)
+dataset/*
+!dataset/.gitkeep
+trainer/*
+!trainer/.gitkeep
+
+# Windows System Files
+Thumbs.db
+Desktop.ini
